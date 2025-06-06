@@ -1,0 +1,18 @@
+//decaração de variaveis 
+ real altura,peso_ideal
+
+ //declaração de constantes
+ const real k=72.7
+ const inteiro b=58
+
+ //entrada de dados 
+ escreva("informe a altura do homem: ")
+ leia(altura)
+
+ //processamento
+ peso_ideal=(k*altura)-b
+
+ //saida de dados 
+ escreva ("O peso ideal é: ",peso_ideal)
+
+  
