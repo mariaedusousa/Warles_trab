@@ -1,0 +1,21 @@
+algoritmo: problema04
+//declaração de variáveis 
+ real mes1,mes2,mes3, media_aritimetica
+
+ //entrada de dados 
+ escreva("valor do mês1: ")   
+ leia(mes1)
+
+ escreva("valor do mês2: ")
+ leia(mes2)
+
+ escreva("valor do mês3: ")
+ leia(mes3)
+
+ //procesamento
+ media_aritimetica=(mes1+mes2+mes3)/3
+
+ //saida de dados 
+ escreva("A média aritimética é: ", media_aritimetica)
+ 
+  
