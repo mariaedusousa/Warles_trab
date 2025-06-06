@@ -1,0 +1,22 @@
+//declaração de variavel
+   real raio,diametro,comprimento,area
+
+   //declaração de constantes
+   const real pi=3.14
+
+   //entradade dados
+   escreva("informe o valor de raio: ") 
+   leia(raio)
+
+   //processamento
+   diametro=2*raio
+   comprimento=pi*diametro
+   area=pi*(raio*raio)
+
+   //saida de dados
+   escreva("valor do diametro: ", diametro)
+   escreva("valor do comprimento: ", comprimento)
+   escreva("valor da area: ", diametro)
+
+
+   
