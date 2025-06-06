@@ -1,0 +1,12 @@
+//Declaração de variavéis 
+ real celsius, fahrenheit 
+
+ //Entrada de dados
+ escreva("Informe a temperatura em celsius: ")
+ leia(celsius)
+ 
+ //Processamento 
+ fahrenheit = celsius * 9/5 + 32.0
+
+ //Saída de dados
+ escreva("A temperatura de celsius em fahrenheit é: ", fahrenheit)
