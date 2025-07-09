@@ -1,0 +1,91 @@
+1)//Declaração de variáveis 
+  real poupanca, arrecadacao, quantidade_pao, quantidade_broa
+
+   //Entrada de dados 
+escreva("Informe a quantidade de pães vendidos: ") 
+leia(quantidade_pao)
+escreva("Informe a quantidade de broas vendidas: ")
+leia(quantidade_broa) 
+
+   //Processamento  
+arrecadacao = quantidade_pao * 0.32 + quantidade_broa * 1.50
+poupanca = (arrecadacao * 10)/100
+
+  //Saída de dados 
+escreva("A arrecadação das vendas foi de: ", arrecadacao, "\n")
+escreva("Você deve guardar: ", poupanca)
+
+2)//Declaração de variavéis
+    caracter nome 
+    inteiro idade, dias_vida
+
+    //Entrada de dados
+    escreva("Informe o seu nome: ")
+    leia(nome)
+    escreva("Informe a sua idade: ")
+    leia(idade)
+
+    //Processamento 
+    dias_vida = idade * 365
+
+    //Saída de dados
+    escreva("Você tem ", dias_vida, " dias de vida")
+3)
+programa {
+  funcao inicio() {
+    //declaração
+    real peso_prato, valor_total, valor_recebido, troco
+    const real valor_prato = 12.00
+    //Entrada
+    escreva("Informe o peso do prato: ")
+    leia(peso_prato)
+    escreva("Informe o valor dado pelo cliente: ")
+    leia(valor_recebido)
+    //Processamento
+    valor_total = peso_prato * valor_prato
+    troco = valor_recebido - valor_total
+    //Saida
+    escreva("Informe o valor do prato: ", valor_total, "\n")
+    escreva("Informe o valor a retornar ao cliente: ", troco)
+
+    
+  }
+}
+4)
+//Declaração de variáveis 
+inteiro dia, mes, dias_passados 
+
+//Entrada de dados 
+escreva("Informe o dia: ") 
+leia(dia) 
+escreva("Informe o mês: ") 
+leia(mes)
+
+//Processamento 
+dias_passados = (mes * 30) + dia 
+
+//Saída de dados 
+escreva("Desde o começo do ano se passaram: ", dias_passados, " dias.")
+5)
+programa {
+  funcao inicio() {
+  //Decaração
+  real quantidade1, quantidade2, quantidade3, litro_totalP, litro_totalM, litro_totalG, litro_total
+  real garrafaP = 0.350, garrafaM = 0.600, garrafaG = 2
+  //Entrada
+  escreva("Informe a quantidade de garrafas compradas de 350ml:")
+  leia(quantidade1)
+  escreva("Informe a quantidade de garrafas compradas de 600ml:")
+  leia(quantidade2)
+  escreva("Informe a quantidade de garrafas compradas de 2L:")
+  leia(quantidade3)
+  //Processamento
+   litro_totalP = (quantidade1 * garrafaP)
+   litro_totalM = (quantidade2 * garrafaM)
+   litro_totalG = (quantidade3 * garrafaG)
+   litro_total = litro_totalP + litro_totalM + litro_totalG
+  //Saida
+  escreva("Informe o total de litros: ", litro_total)
+    
+  }
+}
